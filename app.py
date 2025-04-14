@@ -5,7 +5,7 @@ import json
 st.set_page_config(page_title="Weather Application", layout="centered")
 st.title("☀️ Weather Application")
 
-st.image("image.jpg", use_column_width=True)
+st.image("image.jpg", use_container_width=True)
 
 st.markdown("Get real-time weather updates by selecting your state and city.")
 
